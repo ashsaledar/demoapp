@@ -11,7 +11,7 @@ import { autoLogin } from './auth/state/auth.actions';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
-  title = 'ngrx-counter';
+  title = 'store';
   showLoading: Observable<boolean>;
   errorMessage: Observable<string>;
   constructor(private store: Store<AppState>) {}

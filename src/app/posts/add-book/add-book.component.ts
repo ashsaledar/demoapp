@@ -1,14 +1,14 @@
-import { addPost } from './../state/posts.actions';
-import { Post } from './../../models/posts.model';
+import { addPost } from '../state/posts.actions';
+import { Post } from '../../models/posts.model';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { AppState } from 'src/app/store/app.state';
 
 @Component({
-  selector: 'app-add-post',
-  templateUrl: './add-post.component.html',
-  styleUrls: ['./add-post.component.css'],
+  selector: 'app-add-book',
+  templateUrl: './add-book.component.html',
+  styleUrls: ['./add-book.component.css'],
 })
 export class AddPostComponent implements OnInit {
   postForm: FormGroup;

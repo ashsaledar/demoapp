@@ -10,11 +10,6 @@ const routes: Routes = [
     component: HomeComponent,
   },
   {
-    path: 'counter',
-    loadChildren: () =>
-      import('./counter/counter.module').then((m) => m.CounterModule),
-  },
-  {
     path: 'posts',
     loadChildren: () =>
       import('./posts/posts.module').then((m) => m.PostsModule),

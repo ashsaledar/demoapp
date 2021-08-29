@@ -2,7 +2,7 @@ import { PostsEffects } from './state/posts.effects';
 import { EffectsModule } from '@ngrx/effects';
 import { POST_STATE_NAME } from './state/posts.selector';
 import { EditPostComponent } from './edit-post/edit-post.component';
-import { AddPostComponent } from './add-post/add-post.component';
+import { AddPostComponent } from './add-book/add-book.component';
 import { PostsListComponent } from './posts-list/posts-list.component';
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
