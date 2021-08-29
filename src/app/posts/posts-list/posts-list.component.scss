@@ -4,6 +4,9 @@
     display: flex;
     flex-wrap: wrap;
   }
+  .container1 {
+    margin-left: 10%;
+  }
   .button-add{
 
     display: flex;
@@ -102,7 +105,5 @@
 
   .product-action_delete{
     background-color: red ;
-    border-radius: 10%;
-
   }
   
